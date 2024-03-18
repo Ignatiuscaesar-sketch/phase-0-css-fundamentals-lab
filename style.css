@@ -3,3 +3,59 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Center the header text */
+header h1 {
+  text-align: center;
+}
+
+/* Center the image inside the figure */
+#featured-property figure {
+  text-align: center;
+}
+
+/* Style and center navigation links */
+nav {
+  text-align: center;
+}
+
+nav a {
+  padding: 10px;
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+  display: inline-block; /* This helps in applying padding */
+}
+
+/* Update the image caption styling */
+figcaption {
+  font-size: smaller;
+  text-align: center;
+}
+
+/* Style the paragraphs within #featured-property to center them and set a width */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto; /* Centers the block and adds vertical space */
+  text-align: center;
+}
+
+/* Make the #details section's divs align horizontally */
+#details div {
+  float: left;
+  width: 25%;
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+/* Style the divs at the bottom of the page */
+#details div {
+  background-color: lightgray;
+  text-align: center;
+  padding: 20px 10px; /* Adjust padding as needed */
+}
+
+/* Clear floats */
+#details:after {
+  content: "";
+  display: table;
+  clear: both;
+}
